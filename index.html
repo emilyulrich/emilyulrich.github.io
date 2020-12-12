@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="keywords" content="maps, cartography"/>
+		<title>Emily Ulrich</title>
+		
+		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
+        <script src="https://kit.fontawesome.com/00ad3ce01f.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top"> <!-- Creates the navbar -->
+        <div class="header">
+                <header><p>Hello I’m Emily Ulrich, a GIS Analyst. Welcome to my portfolio.</p></header>
+          </div>
+		  <div class="container">
+		    <div class="navbar-header"> <!-- Creates the navbar header -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
+          				<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+					</button> <!-- Hamburger button for smaller devices -->
+                    <a class="navbar-brand" href="index.html">Emily Ulrich</a>
+		    </div>
+
+		    <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
+              <ul class="nav navbar-nav">  <!-- Unordered list for icons on navbar -->
+                 <li><a href="mailto:egulrich@wisc.edu"><i class="fas fa-envelope-square"></i></a></li>
+                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+		      <ul class="nav navbar-nav navbar-right">  <!-- Unordered list for right side links on navbar -->
+                <li><a href="index.html">Portfolio</a></li>
+		        <li><a href="about.html">About</a></li>
+				<li><a href="resume.html">Resume</a></li>
+		      </ul>
+		    </div> <!-- end .navbar-collapse -->
+		  </div> <!-- end .container -->
+		</nav> <!-- end navigation bar -->
+
+		<div class="jumbotron">
+			<div class="container">
+				<h2>Portfolio</h2>
+				<p>GIS Analyst</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-md-6">
+				<a href="portfolio/waterclarity.html" class="thumbnail">
+				    <img src="assets/InfographicFinal.PNG" class="img-responsive" alt="Lake Tahoe's Water Clarity Infographic">
+				</a>
+                <div class="caption">
+                    <h3>Water Quality Matters</h3>
+                    <p>Infographic illustrating the importance of water clarity in Lake Tahoe.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+				<a href="portfolio/bikeroute.html" class="thumbnail">
+				    <img src="assets/BikeRouteFinal.PNG" class="img-responsive" alt="Bike Route Map">
+				</a>
+                <div class="caption">
+                    <h3>Bike Ride Anyone?</h3>
+                    <p>Map created to demonstrate a bike race through the US West Coast.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+				<a href="https://api.mapbox.com/styles/v1/egulrich/ckhdy0a9k05g819pl2p4hmmhp.html?fresh=true&title=view&access_token=pk.eyJ1IjoiZWd1bHJpY2giLCJhIjoiY2toMGo3bGgwMDduZDJ4cW14d2UxNTdscCJ9.suZMvgij1v1268mk1ao_nA#11.58/62.0532/129.7497" class="thumbnail">
+				    <img src="assets/PlanetFinal.PNG" class="img-responsive" alt="Planet Web Map">
+				</a>
+                <div class="caption">
+                    <h3>Out of this World</h3>
+                    <p>Mapbox web map showing Earth reimagined as a Star Trek planet.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+			    <a href="portfolio/planetexo.html" class="thumbnail">
+                    <img src="assets/PlanetFinal.PNG" class="img-responsive" alt="Planet Web Map">
+				</a>
+                <div class="caption">
+                    <h3>Lake Tahoe</h3>
+                    <p>Map used to show the location of Lake Tahoe.</p>
+                </div>
+            </div>
+        </div>
+		
+		<!--put your external script links here-->
+		<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+	</body>
+</html>
