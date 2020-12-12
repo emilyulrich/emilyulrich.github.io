@@ -38,7 +38,7 @@ header p {
 .navbar-default .navbar-brand:focus
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #ebd122;
+    color: #000000;
 }
 
 /* Navbar links */
@@ -51,10 +51,7 @@ header p {
 .navbar-default .navbar-nav .fas {
 	font-size: 24px;
 }
-.navbar-default .navbar-nav .fab:hover,
-.navbar-default .navbar-nav .fas:hover {
-	color: #969eac;
-}
+
 
 
 /* Navbar collapsed styles */
@@ -163,7 +160,7 @@ a:hover {
 .jumbotron {
   background-image: url("../assets/Picture3.png");
   text-align: center;
-  color: #525252;
+  color: black;
   padding: 2%;
 }
 
@@ -175,7 +172,8 @@ a:hover {
 /*** General Body ***/
 body {
   padding-top: 50px;
-  font-family: 'Futura', sans-serif;
+  font-family: 'notosans_regular', sans-serif;
   background-color: #f7f1fa;
   color: #242424;
 }
+
