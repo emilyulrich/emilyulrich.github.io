@@ -128,6 +128,11 @@ header p {
   font-size: 18px;
 }
 
+.resume h5 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .resume h4 {
   font-weight: bold;
   font-size: 18px;
@@ -137,6 +142,38 @@ header p {
   font-weight: bold;
   font-size: 25px;
 }
+
+.resume-caption {
+	padding: 0 4px 0 4px;
+	margin: 10px 0 20px 0;
+}
+
+.resume-caption p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.resume-caption h3 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border: 0px solid black;
+    table-layout: fixed;
+    align:center;
+}
+
+td{
+    width: 50%;
+    text-align: center;
+    border: 0px solid black;
+}
+
+
 
 /*** General ***/
 hr {
