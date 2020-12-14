@@ -1,4 +1,5 @@
 /***** Small Header *****/
+/*
 .header {
     position: relative;
 }
@@ -18,12 +19,14 @@ header p {
     color: white;
     font-size: 15px;
 }
+*/
 
 /***** NAVBAR *****/
 .navbar-default {
   background-color: #66c2a4;
   border-radius: 0;
   background-image: none;
+  margin-bottom: 0;
 }
 
 /* Navbar title */
@@ -49,7 +52,7 @@ header p {
 
 .navbar-default .navbar-nav .fab,
 .navbar-default .navbar-nav .fas {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 
@@ -61,8 +64,8 @@ header p {
 
 .navbar-header .navbar-toggle:hover,
 .navbar-header .navbar-toggle:focus {
-  background-color: #ebd122;
-  color: #242424;
+  background-color: #66c2a4;
+  color: #66c2a4;
 }
 
 /*** Portfolio pieces ***/
@@ -78,94 +81,63 @@ header p {
   margin-bottom: 0;
 }
 
-.caption {
-	padding: 0 4px 0 4px;
-	margin: 10px 0 20px 0;
-}
-
-.caption p {
-  font-size: 14px;
-  text-align: center;
-}
-
-.caption h3 {
-  font-size: 14px;
-  font-weight: 600;
-  text-align: center;
-}
-
 .portfolio-thumbnail {
-  background-color: #fff;
+  background-color: #66c2a4;
   border-color: #66c2a4;
   border-width: 2px;
   width: 95%;
 }
 
-.portfolio-thumbnail:hover {
-  border-color: #ebd122;
-}
-
-.portfolio-title {
-  font-weight: bold;
-}
-
-.portfolio-description {
-}
-
-.portfolio-image {
-}
-
-#about-world {
-  max-height: 200px;
+.portfolio-thumbnail:hover 
+.portfolio-thumbnail:focus{
+  border-color: ##000000;
 }
 
 /*** Resume ***/
 .resume li {
+  list-style: square;
+  color: #525252;
   font-size: 16px;
+  margin-top: 5px;
+}
+
+.resume ul {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .resume p {
   font-size: 18px;
-}
-
-.resume h5 {
-  font-weight: bold;
-  font-size: 16px;
+  color: #525252;
 }
 
 .resume h4 {
+  color: #525252;
   font-weight: bold;
   font-size: 18px;
 }
 
 .resume h3 {
+  color: #525252;
   font-weight: bold;
   font-size: 25px;
 }
 
-.resume-caption {
-	padding: 0 4px 0 4px;
-	margin: 10px 0 20px 0;
-}
-
-.resume-caption p {
-  font-size: 20px;
-  text-align: center;
-}
-
-.resume-caption h3 {
-  font-size: 18px;
+.resume-title p {
+  color: #525252;
   font-weight: 300;
-  text-align: center;
+  font-size: 18px;
+  margin-bottom: 0;
 }
 
-.resume-education h5 {
-  font-size: 18px;
+.resume-education h4 {
+  color: #525252;
   font-weight: 600;
   text-align: center;
 }
 
 .resume-education p {
+  color: #525252;
   font-size: 16px;
   font-weight: 300;
   text-align: center;
@@ -177,43 +149,74 @@ header p {
   margin-right: auto;
   width: auto;
 }
+/*** Portfolio ***/
 
-li {
-   list-style: square;
-   margin-left: 0;
-   padding-left: 1em;
-   text-indent: -1em;
+.caption {
+	padding: 0 4px 0 4px;
+	margin: 10px 0 20px 0;
 }
 
-
-table{
-    width: 100%;
-    border-collapse:collapse;
-    border: 0px solid black;
-    table-layout: fixed;
-    align:center;
+.caption p {
+  color: #525252;
+  font-size: 16px;
+  text-align: center;
 }
 
-td{
-    width: 50%;
-    text-align: center;
-    border: 0px solid black;
+.caption h3 {
+  color: #525252;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
 }
 
+/*** About ***/
+
+#about {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  color: #525252;
+  font-size: 22px;
+  font-weight: none;
+}
+
+/*** Portfolio Individual Pages ***/
+
+.portfolio-image {
+margin-bottom: 20px;
+}
+
+.portfolio-title {
+  font-size: 35px;
+  color: #525252;
+  font-weight: bold;
+  text-align: center;
+}
+
+.portfolio-description {
+  font-size: 20px;
+  color: #525252;
+  font-weight: bold;
+  text-align: center;
+}
 
 
 /*** General ***/
+
 hr {
-  border-color: white;
+  border-color: #969696;
   border-width: 2px;
 }
 
 p {
   font-size: 20px;
+  color: #525252;
 }
 
 a {
-  color: #863ee3;
+  color: #66c2a4;
 }
 
 a:hover {
@@ -222,15 +225,21 @@ a:hover {
 
 /*** Top Banner ***/
 .jumbotron {
-  background-image: url("../assets/Picture3.png");
   text-align: center;
-  color: black;
-  padding: 2%;
+  background-color: #969696;
+  padding: 1%;
 }
 
 .jumbotron h2 {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 600;
+  color: white;
+}
+
+.jumbotron p {
+  font-size: 26px;
+  font-weight: 300;
+  color: white;
 }
 
 /*** General Body ***/
@@ -238,6 +247,5 @@ body {
   padding-top: 50px;
   font-family: 'notosans_regular', sans-serif;
   background-color: #f7f1fa;
-  color: #242424;
 }
 

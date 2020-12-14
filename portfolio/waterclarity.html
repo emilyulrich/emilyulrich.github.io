@@ -7,8 +7,10 @@
 		<!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
 
 		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
+        <script src="https://kit.fontawesome.com/00ad3ce01f.js"></script>
 		<link rel="stylesheet" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="../css/styles.css">
 		<!--[if IE<9]>
 			<link rel="stylesheet" href="css/style.ie.css">
@@ -17,17 +19,28 @@
 
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top"> <!-- Creates the navbar -->
+<!--
+        <div class="header">
+                <header><p>Hello I’m Emily Ulrich, a GIS Analyst. Welcome to my portfolio.</p></header>
+          </div>
+-->
 		  <div class="container">
 		    <div class="navbar-header"> <!-- Creates the navbar header -->
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-		        <span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
-						<span class="glyphicon glyphicon-menu-hamburger"></span><span class="menu"> Menu</span>
-		      </button> <!-- Hamburger button for smaller devices -->
-					<a class="navbar-brand" href="../index.html">Emily Ulrich</a> <!-- Your website brand name -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
+          				<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+					</button> <!-- Hamburger button for smaller devices -->
+                    <a class="navbar-brand" href="index.html">Emily Ulrich</a>
 		    </div>
 
 		    <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
-		      <ul class="nav navbar-nav">  <!-- Unordered list for links on navbar -->
+              <ul class="nav navbar-nav">  <!-- Unordered list for icons on navbar -->
+                 <li><a href="mailto:egulrich@wisc.edu"><i class="fas fa-envelope-square"></i></a></li>
+                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+		      <ul class="nav navbar-nav navbar-right">  <!-- Unordered list for right side links on navbar -->
                 <li><a href="index.html">Portfolio</a></li>
 		        <li><a href="about.html">About</a></li>
 				<li><a href="resume.html">Resume</a></li>
