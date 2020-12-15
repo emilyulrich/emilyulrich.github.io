@@ -21,6 +21,7 @@ header p {
 }
 */
 
+
 /***** NAVBAR *****/
 .navbar-default {
   background-color: #66c2a4;
@@ -55,8 +56,6 @@ header p {
 	font-size: 20px;
 }
 
-
-
 /* Navbar collapsed styles */
 .navbar-header .navbar-toggle {
   color: #fff;
@@ -68,30 +67,38 @@ header p {
   color: #66c2a4;
 }
 
+
 /*** Portfolio pieces ***/
-.portfolio-thumbnail h3 {
-  font-size: 16px;
-  text-align: center;
-  margin-top: 0px
-}
-
-.portfolio-thumbnail p {
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.portfolio-thumbnail {
-  background-color: #66c2a4;
+.thumbnail {
+  background-color: #fff;
   border-color: #66c2a4;
   border-width: 2px;
   width: 95%;
 }
 
-.portfolio-thumbnail:hover 
-.portfolio-thumbnail:focus{
-  border-color: ##000000;
+.thumbnail:hover 
+.thumbnail:focus{
+  border-color: #000000;
 }
+
+.caption {
+	padding: 0 4px 0 4px;
+	margin: 10px 0 20px 0;
+}
+
+.caption p {
+  color: #525252;
+  font-size: 16px;
+  text-align: center;
+}
+
+.caption h3 {
+  color: #525252;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
 
 /*** Resume ***/
 .resume li {
@@ -149,28 +156,9 @@ header p {
   margin-right: auto;
   width: auto;
 }
-/*** Portfolio ***/
 
-.caption {
-	padding: 0 4px 0 4px;
-	margin: 10px 0 20px 0;
-}
-
-.caption p {
-  color: #525252;
-  font-size: 16px;
-  text-align: center;
-}
-
-.caption h3 {
-  color: #525252;
-  font-size: 18px;
-  font-weight: 600;
-  text-align: center;
-}
 
 /*** About ***/
-
 #about {
   max-height: 300px;
   margin-bottom: 20px;
@@ -182,8 +170,8 @@ header p {
   font-weight: none;
 }
 
-/*** Portfolio Individual Pages ***/
 
+/*** Portfolio Individual Pages ***/
 .portfolio-image {
 margin-bottom: 20px;
 }
@@ -191,20 +179,27 @@ margin-bottom: 20px;
 .portfolio-title {
   font-size: 35px;
   color: #525252;
-  font-weight: bold;
-  text-align: center;
+  font-weight: 600;
+  text-align: left;
+}
+
+.portfolio-about {
+  font-size: 25px;
+  color: #525252;
+  font-weight: 600;
+  text-align: left;
 }
 
 .portfolio-description {
   font-size: 20px;
   color: #525252;
-  font-weight: bold;
-  text-align: center;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 
 /*** General ***/
-
 hr {
   border-color: #969696;
   border-width: 2px;
@@ -222,6 +217,7 @@ a {
 a:hover {
   color: #ebd122;
 }
+
 
 /*** Top Banner ***/
 .jumbotron {
@@ -241,6 +237,7 @@ a:hover {
   font-weight: 300;
   color: white;
 }
+
 
 /*** General Body ***/
 body {
