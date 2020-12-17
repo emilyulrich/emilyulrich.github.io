@@ -198,6 +198,21 @@ margin-bottom: 20px;
   margin-bottom: 10px;
 }
 
+.portfolio-source {
+  font-size: 18px;
+  color: #525252;
+  font-weight: 600;
+  text-align: left;
+}
+
+.portfolio-sourcelist {
+  font-size: 16px;
+  color: #525252;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 10px;
+  word-break:break-word
+}
 
 /*** General ***/
 hr {
